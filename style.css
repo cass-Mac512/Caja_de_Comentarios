@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 80%; /* Ajusta el ancho según tus preferencias */
+    max-width: 800px;
+}
+
+#comment-form-section {
+    text-align: center; /* Centra el formulario */
+    margin-bottom: 20px;
+}
+
+#comment-text {
+    width: 80%; /* Ajusta el ancho del textarea */
+    max-width: 600px; /* Evita que el textarea se vuelva demasiado ancho */
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #30D5C8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.comment-meta {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
